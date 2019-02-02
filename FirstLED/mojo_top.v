@@ -23,5 +23,5 @@ module mojo_top(
     output LED
     );
 
-
+assign LED = ~RESET_N;
 endmodule
